@@ -7,7 +7,7 @@ text("# Welcome to Preswald!")
 text("This is my first app. 🎉")
 
 # Load the CSV
-connect()  # load in all sources, which by default is the sample_csv
+connect()  # load in all sources
 df = get_df('weather_classification_data.csv')
 
 # Add a slider to filter the data
