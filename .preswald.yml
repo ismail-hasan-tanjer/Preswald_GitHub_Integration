@@ -1,0 +1,19 @@
+app:
+  name: My Preswald App
+  description: An AI-based data visualization app
+  version: 1.0
+  author: Md. Ismail Hasan Tanjer
+
+source:
+  type: file
+  format: csv
+  path: weather_classification_data.csv
+
+dependencies:
+  - pandas
+  - plotly
+  - preswald
+
+deploy:
+  target: structured
+  public: true
